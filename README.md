@@ -88,3 +88,19 @@ If you comment out the `<includes>` block:
     [INFO] ------------------------------------------------------------------------
 
 
+If you're on Windows, you can run `test_versions.bat` to have the setup run with all
+versions of the plugin from 2.19 to the most recent. This will be the output:
+
+    Why didn't Maven 2.19 execute the test :(
+    Maven 2.19.1 DID execute the test!
+    Why didn't Maven 2.20 execute the test :(
+    Why didn't Maven 2.20.1 execute the test :(
+    Why didn't Maven 2.21.0 execute the test :(
+    Why didn't Maven 2.22.0 execute the test :(
+    Why didn't Maven 2.22.1 execute the test :(
+    Why didn't Maven 2.22.2 execute the test :(
+    Why didn't Maven 3.0.0-M1 execute the test :(
+    Why didn't Maven 3.0.0-M2 execute the test :(
+    Why didn't Maven 3.0.0-M3 execute the test :(
+    Why didn't Maven 3.0.0-M4 execute the test :(
+    Why didn't Maven 3.0.0-M5 execute the test :(
