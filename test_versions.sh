@@ -5,7 +5,7 @@ for i in 2.18 2.18.1 2.19 2.19.1 2.20 2.20.1 2.21.0 2.22.0 2.22.1 2.22.2 \
 
     cat pom.xml.template | sed "s/!VERSION!/$i/" > pom.xml
     mvn -B test 2>&1 | grep -q "Tests run: 1" \
-        && echo Surefire $i OK (test executed) \
-        || echo Surefire $1 NOK
+        && echo Surefire $i OK \(test executed\) \
+        || echo Surefire $i NOK
 
 done

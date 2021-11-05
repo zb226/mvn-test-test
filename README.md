@@ -92,18 +92,18 @@ You can run `test_versions.bat` if you're on Windows, or `test_versions.sh`
 on *nix systems to have the setup run with all versions of the plugin from 2.18 to
 the most recent. This will be the output:
 
-    Why didn't Surefire 2.18 execute the test :(
-    Why didn't Surefire 2.18.1 execute the test :(
-    Why didn't Surefire 2.19 execute the test :(
-    Surefire 2.19.1 DID execute the test!
-    Why didn't Surefire 2.20 execute the test :(
-    Why didn't Surefire 2.20.1 execute the test :(
-    Why didn't Surefire 2.21.0 execute the test :(
-    Why didn't Surefire 2.22.0 execute the test :(
-    Why didn't Surefire 2.22.1 execute the test :(
-    Why didn't Surefire 2.22.2 execute the test :(
-    Why didn't Surefire 3.0.0-M1 execute the test :(
-    Why didn't Surefire 3.0.0-M2 execute the test :(
-    Why didn't Surefire 3.0.0-M3 execute the test :(
-    Why didn't Surefire 3.0.0-M4 execute the test :(
-    Why didn't Surefire 3.0.0-M5 execute the test :(
+    Surefire 2.18 NOK
+    Surefire 2.18.1 NOK
+    Surefire 2.19 NOK
+    Surefire 2.19.1 OK (test executed)
+    Surefire 2.20 NOK
+    Surefire 2.20.1 NOK
+    Surefire 2.21.0 NOK
+    Surefire 2.22.0 NOK
+    Surefire 2.22.1 NOK
+    Surefire 2.22.2 NOK
+    Surefire 3.0.0-M1 NOK
+    Surefire 3.0.0-M2 NOK
+    Surefire 3.0.0-M3 NOK
+    Surefire 3.0.0-M4 NOK
+    Surefire 3.0.0-M5 NOK
