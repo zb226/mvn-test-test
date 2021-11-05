@@ -12,8 +12,8 @@ SET VERSION=%1
 ( FOR /F "tokens=* delims=" %%A IN (pom.xml.template) DO ECHO %%A ) > pom.xml
 CALL mvn -B test 2>&1 | FINDSTR /C:"Tests run: 1" > NUL
 IF %ERRORLEVEL% EQU 0 (
-    ECHO Maven %1 DID execute the test^^!
+    ECHO Surefire %1 DID execute the test^^!
 ) ELSE (
-    ECHO Why didn't Maven %1 execute the test :(
+    ECHO Why didn't Surefire %1 execute the test :(
 )
 EXIT /B 0

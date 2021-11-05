@@ -92,18 +92,18 @@ You can run `test_mvn_versions.bat` if you're on Windows, or `test_mvn_versions.
 on *nix systems to have the setup run with all versions of the plugin from 2.18 to
 the most recent. This will be the output:
 
-    Why didn't Maven 2.18 execute the test :(
-    Why didn't Maven 2.18.1 execute the test :(
-    Why didn't Maven 2.19 execute the test :(
-    Maven 2.19.1 DID execute the test!
-    Why didn't Maven 2.20 execute the test :(
-    Why didn't Maven 2.20.1 execute the test :(
-    Why didn't Maven 2.21.0 execute the test :(
-    Why didn't Maven 2.22.0 execute the test :(
-    Why didn't Maven 2.22.1 execute the test :(
-    Why didn't Maven 2.22.2 execute the test :(
-    Why didn't Maven 3.0.0-M1 execute the test :(
-    Why didn't Maven 3.0.0-M2 execute the test :(
-    Why didn't Maven 3.0.0-M3 execute the test :(
-    Why didn't Maven 3.0.0-M4 execute the test :(
-    Why didn't Maven 3.0.0-M5 execute the test :(
+    Why didn't Surefire 2.18 execute the test :(
+    Why didn't Surefire 2.18.1 execute the test :(
+    Why didn't Surefire 2.19 execute the test :(
+    Surefire 2.19.1 DID execute the test!
+    Why didn't Surefire 2.20 execute the test :(
+    Why didn't Surefire 2.20.1 execute the test :(
+    Why didn't Surefire 2.21.0 execute the test :(
+    Why didn't Surefire 2.22.0 execute the test :(
+    Why didn't Surefire 2.22.1 execute the test :(
+    Why didn't Surefire 2.22.2 execute the test :(
+    Why didn't Surefire 3.0.0-M1 execute the test :(
+    Why didn't Surefire 3.0.0-M2 execute the test :(
+    Why didn't Surefire 3.0.0-M3 execute the test :(
+    Why didn't Surefire 3.0.0-M4 execute the test :(
+    Why didn't Surefire 3.0.0-M5 execute the test :(
