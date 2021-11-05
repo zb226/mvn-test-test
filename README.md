@@ -88,7 +88,7 @@ If you comment out the `<includes>` block:
     [INFO] ------------------------------------------------------------------------
 
 
-You can run `test_mvn_versions.bat` if you're on Windows, or `test_mvn_versions.sh`
+You can run `test_versions.bat` if you're on Windows, or `test_versions.sh`
 on *nix systems to have the setup run with all versions of the plugin from 2.18 to
 the most recent. This will be the output:
 
